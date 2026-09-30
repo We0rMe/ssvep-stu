@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 256 256">
+  <title>UESTC</title>
+  <desc>Rounded orange monoline letters, clockwise from U at twelve o'clock, connected by circular blue arcs.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.5">
+    <g stroke="#0066cc">
+      <path d="M148 29 A101 101 0 0 1 219 84"/>
+      <path d="M228 138 A101 101 0 0 1 204 194"/>
+      <path d="M165 228 C139 244 104 240 78 225"/>
+      <path d="M54 184 C34 166 24 149 27 132"/>
+      <path d="M37 80 A101 101 0 0 1 108 29"/>
+    </g>
+    <g stroke="#ff8800">
+      <!-- U: twelve o'clock -->
+      <path d="M108 25 V48 C108 74 148 74 148 48 V25"/>
+      <!-- E: rounded handwritten corners -->
+      <path d="M228 84 H208 Q194 84 194 98 V124 Q194 138 208 138 H228 M194 111 H220"/>
+      <!-- S: continuous smooth cubic curves -->
+      <path d="M204 194 C193 183 180 180 173 186 C164 193 168 203 181 207 C195 211 203 214 202 223 C200 240 177 241 165 228"/>
+      <!-- T -->
+      <path d="M54 184 Q78 181 102 184 M78 183 V225"/>
+      <!-- C -->
+      <path d="M59 85 C39 70 22 88 22 112 C22 139 41 150 60 137"/>
+    </g>
+  </g>
+</svg>

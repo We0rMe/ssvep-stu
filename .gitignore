@@ -1,0 +1,9 @@
+/build*/
+/dist/
+/data/
+/model/
+*.user
+*.pdb
+*.ilk
+*.exe
+*.dll

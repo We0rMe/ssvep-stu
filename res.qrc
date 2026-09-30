@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/images">
+    <file>images/Sensor_positions.png</file>
+    <file>images/circle.png</file>
+    <file>images/circle_green.png</file>
+    <file>images/circle_yellow.png</file>
+    <file>images/circle_red.png</file>
+    <file>images/instruction.png</file>
+    <file>images/instruction_online.png</file>
+    <file>images/rest.png</file>
+    <file>images/conclusion.png</file>
+  </qresource>
+  <qresource prefix="/branding">
+    <file>assets/logo.png</file>
+  </qresource>
+</RCC>
