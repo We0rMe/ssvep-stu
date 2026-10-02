@@ -7,3 +7,5 @@
 *.ilk
 *.exe
 *.dll
+/CHECKS.md
+/tests/

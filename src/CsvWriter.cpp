@@ -16,7 +16,9 @@ bool writeSessionCsv(const QString& path, const QList<EEG_PACKET>& packets,
     if (!QDir().mkpath(info.absolutePath())) { error = QStringLiteral("无法创建数据目录"); return false; }
     EEGDataSaver saver;
     saver.setParadigm(ExperimentParadigm::SSVEP);
-    saver.setSubjectInfo(info.dir().dirName());
+    QDir subjectDir = info.dir();
+    subjectDir.cdUp();
+    saver.setSubjectInfo(subjectDir.dirName(), info.dir().dirName());
     saver.setSamplingRate(1000);
     saver.setChannels(ssvepChannelNames());
     saver.setEEGData(packets);
